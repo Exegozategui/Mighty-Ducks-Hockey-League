@@ -5,64 +5,236 @@
     box-sizing: border-box;
 }
 
-body{
-  height: 800px; 
-  width: 1200px;
+header{
+  background-color: rgb(0 10 7);
+  min-height: 20vh;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0rem;
+  gap: 9rem;
+}
+  
+
+
+  h1{
+    font-size: 4rem;
+
+    margin-top: 50px;
+
+    color:rgba(231, 206, 14, 0.847);
+    text-shadow: -4px 3px 6px rgba(248,93,0,0.69);
 }
 
-/*Header*/
-.foto{
-  height:300px ;
-  width: 1000px;
+
+.logo{
+  height: 200px;
+  width: 200px;
+
 }
 
 nav{
-  display: inline-block;
-  position: relative;
-  top: 9px;
-  left:789px
-}
-nav a{
-  text-decoration: none;
-  color: white;
-  background-color: #045dede7;
-  border: 2px solid black;
-  display: inline-block;
-  text-align: center;
-}
-.active{
-  background-color: green;
-  color: white;
+  min-height: 6vh;
+    background-color:rgb(0 10 7);;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
   
 }
 
-h1{
-  position: relative;
-  top: 13px;
-  width: 780px;
-  font-size: xxx-large;
-
-}
-
-/*Main*/
-
-h2{
-  width: 1000px;
+nav a{
+  width: 10rem;
   text-align: center;
-  border: 2px solid black
-}
-.logo{
-  height: 180px;
-    width: 180px;
-    position: relative;
-    bottom: 3px;
+  text-decoration: none;
+  height: 2.5rem;
+  border: 1px solid rgba(248,93,0,0.69);
+  border-radius: 3rem;
+  padding: 0.6rem;
+  color: rgba(231, 206, 14, 0.847);
+  font-weight: bolder;
+  font-size: 1rem;
+  background-color: rgb(0 10 7);
+  transition: all 0.5s;
 }
 
-div{
-  width: 800px;
-    height: 800px;
-    position: relative;
-    left: 200px;
-    bottom: 170px;
+
+a:hover{
+ color: orange;
+  background-color: rgb(10, 181, 175);
+}
+
+main{
+ 
+  min-height: 70vh;
+}
+
+.img-fondo-home{
+  background-image:url(./assest/hockey1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+   
+.img-fondo-about{
+  background-image: url(./assest/hockey3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ima-fondo-contact{
+  background-image: url(./assest/design1_image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-fondo-game{
+  background-image: url(./assest/hockey2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-fondo-rules{
+  background-image: url(./assest/design1_image2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2{
+  text-align: center;
+  font-size: 3rem;
+  color:rgba(231, 206, 14, 0.847);
+    text-shadow: -4px 3px 6px rgba(248,93,0,0.69);
+}
+
+
+.div-home{
+  text-align: center;
+    margin: 70px;
+}
+.div-home h3{
+  font-size: 1.5rem;
+  color: rgb(4 207 141);
+  text-shadow: -4px 3px 6px rgb(248 93 0 / 69%);
+}
+
+.div-home p{
+  font-size: 2rem;
+  color:black;
+  text-shadow: -4px 3px 6px rgba(6, 2, 0, 0.69);
+}
+
+.div-about{
+  text-align: center;
+  margin: 70px;
+}
+.div-about h3{
+  font-size: 1.5rem;
+  color: rgb(4 207 141);
+  text-shadow: -4px 3px 6px rgb(248 93 0 / 69%);
+}
+.div-about p{
+  font-size: 1.5rem;
+  color:black;
+  text-shadow: -4px 3px 6px rgba(6, 2, 0, 0.69);
+}
+
+.div-contact p{
+  text-align: center;
+  margin: 50px;
+  font-size: 2rem;
+  color:black;
+  text-shadow: -4px 3px 6px rgba(6, 2, 0, 0.69);
+}
+
+
+table {
+  background-color: #933d233d;
+  width: 80vw;
+  height: 28vh;
+  border-collapse: collapse;
+  border: 4px solid #020000;
+  border-radius: 6px;
+  color: rgb(22, 2, 2);
+  font-size: 21px;
+  margin: 4px;
+}
+
+
+th,
+td {
+    border: 3px solid black;
+}
+
+.game h3{
+  font-size: 1.5rem;
+  color: rgba(3, 3, 3, 0.847);
+  text-shadow: -4px 3px 6px rgb(248 93 0 / 69%);
+}
+.game p{
+  font-size: 1rem;
+  color:black;
+  text-shadow: -4px 3px 6px rgba(6, 2, 0, 0.69);
+}
+
+
+.p-rules{
+  
+  font-size: 1.5rem;
+  color:black;
+  text-shadow: -4px 3px 6px rgba(6, 2, 0, 0.69);
+}
+.h3rules{
+  font-size: 1.5rem;
+  color: rgb(9, 9, 9);
+  text-shadow: -4px 3px 6px rgb(248 93 0 / 69%)
+}
+
+.section-rules h3{
+  font-size: 1.5rem;
+  color: rgb(4 207 141);
+  text-shadow: -4px 3px 6px rgb(248 93 0 / 69%);
+}
+.section-rules p{
+  font-size: 1.5rem;
+  color:black;
+  text-shadow: -4px 3px 6px rgba(6, 2, 0, 0.69);
+}
+.box_list{
+ padding: 5px;
+ margin: 5px;
+  color: white;
+  width: 30vw;
 
 }
+.box_list h3{
+  font-size: 1.5rem;
+  color: rgb(4 207 141);
+  text-shadow: -4px 3px 6px rgb(248 93 0 / 69%);
+}
+.box_list p{
+  font-size: 1rem;
+  color:white;
+  text-shadow: -4px 3px 6px rgba(6, 2, 0, 0.69);
+}
+.box_list3{
+  list-style-type:lower-latin;
+  
+}
+ol{
+  padding: 5px;
+}
+ul{
+  padding: 5px;
+
+}
+.box_list2{
+  padding: 19px;
+  margin: 5px;
+  color: white;
+  width: 30vw;
+}
+.box_list2 h3{
+  font-size: 1.5rem;
+  color: rgb(4 207 141);
+  text-shadow: -4px 3px 6px rgb(248 93 0 / 69%);
+
+}
+

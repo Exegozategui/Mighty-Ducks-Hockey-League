@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+
+ /* Estilos al header */
+
 header{
   background-color: rgb(0 10 7);
   min-height: 20vh;
@@ -65,6 +68,8 @@ a:hover{
   background-color: rgb(10, 181, 175);
 }
 
+/* Main e imagenes */
+
 main{
  
   min-height: 70vh;
@@ -97,6 +102,7 @@ main{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 h2{
   text-align: center;
   font-size: 3rem;
@@ -104,6 +110,7 @@ h2{
     text-shadow: -4px 3px 6px rgba(248,93,0,0.69);
 }
 
+/* Estilos a la pagina home -index*/
 
 .div-home{
   text-align: center;
@@ -121,6 +128,8 @@ h2{
   text-shadow: -4px 3px 6px rgba(6, 2, 0, 0.69);
 }
 
+/* estilos al about */
+
 .div-about{
   text-align: center;
   margin: 70px;
@@ -136,6 +145,8 @@ h2{
   text-shadow: -4px 3px 6px rgba(6, 2, 0, 0.69);
 }
 
+/* estilos al contac */
+
 .div-contact p{
   text-align: center;
   margin: 50px;
@@ -144,6 +155,7 @@ h2{
   text-shadow: -4px 3px 6px rgba(6, 2, 0, 0.69);
 }
 
+/* estilos al Game information */
 
 table {
   background-color: #933d233d;
@@ -173,6 +185,8 @@ td {
   color:black;
   text-shadow: -4px 3px 6px rgba(6, 2, 0, 0.69);
 }
+
+/* estilos al Rules */
 
 
 .p-rules{

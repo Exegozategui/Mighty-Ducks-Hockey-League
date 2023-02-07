@@ -157,10 +157,21 @@ h2{
 
 /* estilos al Game information */
 
+.Contenedor{
+  display: flex;
+  align-items: center;
+  
+}
+
+.Maps{
+  display: flex;
+  align-self:self-start;
+}
+
 table {
   background-color: #933d233d;
-  width: 80vw;
-  height: 28vh;
+  width: 45vw;
+  height: 20vh;
   border-collapse: collapse;
   border: 4px solid #020000;
   border-radius: 6px;
